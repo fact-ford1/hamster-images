@@ -6,6 +6,7 @@
     background-image: url(image/);
 }
 .box{
+    
     box-shadow:5px 5px 5px 5px rgba(0, 0, 0,0.5);
     /* width: 1400px; */
     background-color: #bdf4f4;
@@ -17,12 +18,21 @@
     gap: 50px;
     /* display: flex; */
     justify-content: space-between;
+    justify-items: center;
+    width: auto;
 }
+.box11 > img, .box15>img, .box13>img{
+width: 97px;
+}
+.box16>img {
+    width: 97px;
+}
+
 .box12{
     display: flex;
     border-radius: 5px 5px 0px 0px;
 }
-.box20>img{
+.box20>img, .box17>img{
     width: 98px;
 
 }
@@ -54,7 +64,7 @@ transform:scale(0.9);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 } */
  .boxes:hover ~ .boxes,
- .box:hover .boxes:not(:hover){
+ /*.box:hover*/ .boxes:not(:hover){
     filter: blur(5px);
  }
  video{
