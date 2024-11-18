@@ -6,6 +6,7 @@
     background-image: url(image/);
 }
 .box{
+    box-shadow:5px 5px 5px 5px rgba(0, 0, 0,0.5);
     /* width: 1400px; */
     background-color: #bdf4f4;
     margin: 200px;
@@ -20,6 +21,10 @@
 .box12{
     display: flex;
     border-radius: 5px 5px 0px 0px;
+}
+.box20>img{
+    width: 98px;
+
 }
 .left-radius{
     border-radius:0 5px 5px 0;
