@@ -16,7 +16,6 @@
     display: grid;
     grid-template-columns: repeat(5,auto);
     gap: 50px;
-    /* display: flex; */
     justify-content: space-between;
     justify-items: center;
     width: auto;
@@ -69,7 +68,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 } */
  .boxes:hover ~ .boxes,
  /*.box:hover*/ .boxes:not(:hover){
-    filter: blur(5px);
+    filter: blur(50px);
  }
  video{
     height:97px ;
@@ -80,3 +79,12 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 
  }
+ /* @media (max-width:768px) {
+    box{
+        width: ;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+
+    
+ } */
